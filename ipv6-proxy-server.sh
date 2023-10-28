@@ -6,7 +6,7 @@ if [ "$EUID" -ne 0 ];
 fi;
 
 # Program help info for users
-function usage() { echo "Usage: $0 [-s | --subnet <16|32|48|64|80|96|112|115> proxy subnet (default 64)] 
+function usage() { echo "Usage: $0 [-s | --subnet <16|32|48|64|80|96|112|125> proxy subnet (default 64)] 
                           [-c | --proxy-count <number> count of proxies] 
                           [-u | --username <string> proxy auth username] 
                           [-p | --password <string> proxy password]
